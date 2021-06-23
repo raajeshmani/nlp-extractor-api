@@ -1,11 +1,8 @@
 import spacy
-import pandas as pd
-import numpy as np
 import nltk
 from nltk.tokenize.toktok import ToktokTokenizer
 import re
 from contractions import CONTRACTION_MAP
-import unicodedata
 
 nlp = spacy.load('en_core_web_md')
 tokenizer = ToktokTokenizer()
